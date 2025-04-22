@@ -1,12 +1,34 @@
-# React + Vite
+# 🎬 What2Watch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Find your next favorite movie or TV show.**  
+A simple and sleek React app using the TMDB API to display trending movies and series. Users can search by title and explore what's popular right now.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search for movies and TV series
+- 📈 See what's trending
+- 🎭 Mix of movie and series content
+- ⚡ Fast and responsive UI
+- 🧰 Powered by [The Movie Database (TMDB) API](https://www.themoviedb.org/)
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- TMDB API
+- Tailwind CSS (if applicable)
+- Vite
+
+## 🚀 Getting Started
+
+Clone the project and install dependencies:
+
+```bash
+git clone https://github.com/your-username/watchwise.git
+cd watchwise
+npm install
+npm run dev
+
+Make sure to set your TMDB API key in a .env file:
+
+VITE_TMDB_API_KEY=your_api_key_here
+```
