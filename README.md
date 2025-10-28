@@ -15,7 +15,6 @@ A simple and sleek React app using the TMDB API to display trending movies and s
 
 - React
 - TMDB API
-- Tailwind CSS (if applicable)
 - Vite
 
 ## 🚀 Getting Started
@@ -23,8 +22,8 @@ A simple and sleek React app using the TMDB API to display trending movies and s
 Clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/watchwise.git
-cd watchwise
+git clone https://github.com/your-username/what2watch.git
+cd what2watch
 npm install
 npm run dev
 
