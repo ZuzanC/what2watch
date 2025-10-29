@@ -24,7 +24,6 @@ const App = () => {
 
     try {
       const data = await fetchMovies(query);
-      console.log(data);
 
       if (!data.results || data.results.length === 0) {
         setErrorMessage(data.Error || "Failed to fetch movies");
@@ -81,7 +80,7 @@ const App = () => {
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
 
-        {trendingMovies.length > 0 && (
+        {trendingMovies.length > 0 && searchTerm.length == 0 && (
           <section className="trending">
             <h2>Trending Movies</h2>
 
