@@ -51,10 +51,10 @@
             @apply min-w-[230px] flex flex-row items-center;
         }
         & ul li p {
-            @apply fancy-text mt-[22px] text-nowrap;
+            @apply fancy-text text-nowrap;
         }
         & ul li img {
-            @apply w-[127px] h-[163px] rounded-lg object-cover -ml-3.5;
+            @apply w-[127px] h-[163px] rounded-lg object-cover;
         }
     }
     .search {
@@ -70,6 +70,7 @@
         }
     }
     .all-movies {
+        @apply mt-4;
         @apply space-y-9;
         & ul {
             @apply grid grid-cols-1 gap-5 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
