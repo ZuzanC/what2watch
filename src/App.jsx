@@ -103,7 +103,7 @@ const App = () => {
         )}
 
         <section className="all-movies">
-          <h2>All movies</h2>
+          <h2>{searchTerm.length == 0 ? "All movies" : `Results for "${searchTerm}"`}</h2>
 
           {isLoading ? (
             <Spinner />
